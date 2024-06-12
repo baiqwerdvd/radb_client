@@ -26,7 +26,7 @@ arboard = "3.4.0"
 image = "0.24.9"
 num_cpus = "1.16.0"
 thiserror = "1.0.59"
-rustix = "0.38.34"
+rustix = { version = "1.0.200", features = ["fs"] }
 dirs = "5.0.1"
 itertools = "0.12.1"
 crossbeam = "0.8.4"
